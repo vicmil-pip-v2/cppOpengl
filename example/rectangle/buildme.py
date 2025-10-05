@@ -7,7 +7,7 @@ sys.path.append(str(Path(__file__).resolve().parents[3]))
 sys.path.append(str(Path(__file__).resolve().parents[4])) 
 sys.path.append(str(Path(__file__).resolve().parents[5])) 
 
-from vizpip_env.lib.cppBuild import *
+from vicmil_pip.lib.cppBuild import *
 
 cpp_files = [get_directory_path(__file__, 0) + "/main.cpp"]
 
@@ -16,6 +16,6 @@ build_setup.add_default_parameters(
     cpp_file_paths=cpp_files, 
     output_dir=get_directory_path(__file__, 0) + "/bin",
 )
-build_setup.add_vicmil_pip_package("cppOpengl")
+build_setup.add_vicmil_pip_package("cppOpenGL")
 
 build_setup.build_and_run()
