@@ -14,7 +14,7 @@ from vicmil_pip.lib.cppBuild import BuildSetup, get_directory_path
 def get_build_setup(browser: bool):
     new_build_setup = BuildSetup(browser=browser)
     new_build_setup.add_vicmil_pip_package("cppBasics")
-    new_build_setup.add_vicmil_pip_package("cppGLM")
+    new_build_setup.add_vicmil_pip_package("cppGlm")
 
     new_build_setup.n6_include_paths.append(get_directory_path(__file__, 0))
 
