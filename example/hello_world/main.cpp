@@ -1,5 +1,4 @@
-#include "util_std.hpp"
-#include "util_opengl.hpp"
+#include "vicmil_pip_cppOpengl.hpp"
 
 int main(int argc, char *argv[])
 {
